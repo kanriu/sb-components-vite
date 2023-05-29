@@ -1,11 +1,11 @@
 {
   "name": "sqc-my-storybook-components-vite",
-  "private": false,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "React components",
+  "homepage": "https://snayder.com",
   "license": "MIT",
   "typings": "dist/index.d.ts",
   "main": "dist/index.js",
-  "homepage": "https://snayder.com",
   "repository": {
     "url": "https://github.com/kanriu/sb-components-vite",
     "type": "git"
@@ -29,7 +29,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "build-storybook": "storybook build -o docs",
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 src/**/*.css dist/"
   },

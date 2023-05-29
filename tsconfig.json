@@ -1,16 +1,21 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "outDir": "dist",
+    "target": "ES5",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "module": "ESNext",
+    "declaration": true,
+    "allowJs": true,
+    "module": "CommonJS",
     "skipLibCheck": true,
-
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
     /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "moduleResolution": "node",
+    // "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "noEmit": false,
     "jsx": "react-jsx",
 
     /* Linting */

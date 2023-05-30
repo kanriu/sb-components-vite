@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "target": "ES5",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "declaration": true,
     "allowJs": true,
-    "module": "CommonJS",
+    "module": "ESNext",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
